@@ -1,0 +1,52 @@
+body {
+    background-color: #363535;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+p {
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+}
+
+ul {
+    margin-top: 10%;
+    list-style-type: none;
+}
+
+li {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a {
+    color:grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+#home-div {
+    margin: 15%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+#home-div-left-column {
+    text-align: right;
+}
+
+#home-div-right-column {
+    color: grey;
+    text-align: left;
+}
