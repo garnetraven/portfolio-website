@@ -24,12 +24,41 @@ p {
     color: grey;
 }
 
+#home-nav ul li a:hover {
+    color: white;
+}
+
+#projects-title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#projects-title h1 {
+    text-align: left;
+    margin-left: 0;
+}
+
+#projects-nav {
+    margin-right: 0;
+    padding: 0; 
+    text-align: right;
+}
+
 #projects-nav ul li {
     color: white;
 }
 
 #projects-nav ul li a{
     color: white;
+}
+
+#projects-nav ul li a:hover {
+    color: grey;
 }
 
 ul {
@@ -46,8 +75,8 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: white;
+hr {
+    width: 100vh;
 }
 
 #home-div {
