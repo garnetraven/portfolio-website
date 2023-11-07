@@ -1,16 +1,22 @@
+:root {
+    --primary-color: white;
+    --secondary-color: grey;
+
+}
+
 body {
     background-color: #363535;
 }
 
 h1{
-    color: white;
+    color: var(--primary-color);
     font-size: 75px;
     margin: 0 auto;
     padding: 0;
 }
 
 h2 {
-    color: white;
+    color: var(--primary-color);
     font-size: 30px;
     margin: 0 auto;
     padding: 0;
@@ -19,20 +25,20 @@ h2 {
 p {
     margin: 0 auto;
     padding: 0;
-    color: white;
+    color: var(--primary-color);
 }
 
 #home-nav ul li{
     font-size: 25px;
-    color: grey;
+    color: var(--secondary-color);
 }
 
 #home-nav ul li a{
-    color: grey;
+    color: var(--secondary-color);
 }
 
 #home-nav ul li a:hover {
-    color: white;
+    color: var(--primary-color);
 }
 
 #projects-title {
@@ -57,15 +63,15 @@ p {
 }
 
 #projects-nav ul li {
-    color: white;
+    color: var(--primary-color);
 }
 
 #projects-nav ul li a{
-    color: white;
+    color: var(--primary-color);
 }
 
 #projects-nav ul li a:hover {
-    color: grey;
+    color: var(--secondary-color);
 }
 
 #projects-content {
@@ -96,7 +102,7 @@ li {
 }
 
 a {
-    color:grey;
+    color:var(--secondary-color);
     text-decoration: none;
 }
 
@@ -117,6 +123,6 @@ hr {
 }
 
 #home-div-right-column {
-    color: grey;
+    color: var(--secondary-color);
     text-align: left;
 }
