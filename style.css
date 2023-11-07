@@ -62,11 +62,8 @@ p {
     text-align: right;
 }
 
-#projects-nav ul li {
-    color: var(--primary-color);
-}
-
-#projects-nav ul li a{
+#projects-nav ul li,
+#projects-nav ul li a {
     color: var(--primary-color);
 }
 
