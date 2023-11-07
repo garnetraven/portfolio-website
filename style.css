@@ -1,11 +1,14 @@
 :root {
-    --primary-color: white;
-    --secondary-color: grey;
-
+    --primary-color: #E9ECEF;
+    --secondary-color: #212529;
+    --background: #343A40;
+    --text-shadow: #CED4DA;
+    --projects-content-text: #ADB5BD;
+    --projects-content-text-shadow: #6C757D;
 }
 
 body {
-    background-color: #363535;
+    background-color: var(--background);
 }
 
 h1{
@@ -35,6 +38,7 @@ p {
 
 #home-nav ul li a{
     color: var(--secondary-color);
+    text-shadow: 1px 1px 4px var(--text-shadow);
 }
 
 #home-nav ul li a:hover {
@@ -87,6 +91,14 @@ p {
 
 #projects-content ul li {
     margin-top: 30px;
+}
+
+#projects-content ul li h2 {
+    text-shadow: 1px 1px 2px var(--projects-content-text-shadow);
+}
+
+#projects-content ul li p{
+    color: var(--projects-content-text);
 }
 
 ul {
